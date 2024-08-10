@@ -2,22 +2,19 @@
 
 int main ()
 {
-	int i, x, pos, bigger;
-
-	i == 100;
-	bigger = 0;
-	pos = 1;
-	while (i-- > 0)
+	int x, bigger, pos;
+	
+	bigger = pos = 0;	
+	for(int i = 1; i <= 100; i++)
 	{
-		scanf("%d", &x);
+		scanf("%d",&x);
 		if (x > bigger)
 		{
 			bigger = x;
 			pos = i;
 		}
 	}
-	printf("%d\n", bigger);
-	printf("%d\n", pos);
-	
-
+	printf("%d\n" ,bigger);
+	printf("%d\n" ,pos);
+	return (0);
 }
