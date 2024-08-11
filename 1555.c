@@ -37,7 +37,7 @@ int main ()
 		carlosf = carlos(x, y);
 		betof = beto(x, y);
 		if (rafaelf > carlosf && rafaelf > betof) printf("Rafael ganhou\n");
-		else if (carlosf > rafaelf && carlosf) printf("Carlos ganhou\n");
+		else if (carlosf > rafaelf && carlosf > betof) printf("Carlos ganhou\n");
 		else printf("Beto ganhou\n");
 	}
 	return (0);
